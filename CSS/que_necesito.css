@@ -1,0 +1,189 @@
+* {
+	margin:0;
+	padding:0;
+	background:#212121 
+	font-family: 'Source Sans Pro';
+}
+
+/*--Fuentes--*/
+@font-face{
+	font-family:'Nunito-BoldItalic';
+	src:url(Fuentes/Nunito-BoldItalic.ttf);
+	font-style:normal;
+	font-weight:400;
+}
+@font-face{
+	font-family:'SourceSansPro-Regular';
+	src: url(Fuentes/SourceSansPro-Regular.ttf);
+	font-style: normal;
+ 	font-weight: 400;
+}
+@font-face{
+	font-family:'Ephesis-Regular';
+	src: url(Fuentes/Ephesis-Regular.ttf);
+	font-style: normal;
+ 	font-weight: 400;
+}
+@font-face{
+	font-family: 'SourceSansPro-SemiBoldItalic';
+	src: url(Fuentes/SourceSansPro-SemiBoldItalic.ttf);
+	font-style: normal;
+ 	font-weight: 600;
+}
+@font-face{
+	font-family: 'SourceSansPro-Bold';
+	src: url(Fuentes/SourceSansPro-Bold.ttf);
+	font-style: normal;
+ 	font-weight: 700;
+}
+@font-face{
+	font-family:'SourceSansPro-LightItalic';
+	src:url(Fuentes/SourceSansPro-LightItalic.ttf);
+	font-style:normal;
+	font-weight:400;
+}
+@font-face{
+	font-family:'Nunito-Regular';
+	src: url(Fuentes/Nunito-Regular.ttf)
+	font-style:normal;
+	font-weight:400;
+}
+
+/*--Header--*/
+.top{
+	background:url(../Imagenes/Fondos/FondoComputadoras.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:scroll; 
+	height:100vh;
+	background-size: cover;
+	position: center;
+}
+.title{
+	width:70%;
+	position:relative;
+	top:45%;
+	bottom:;
+	right:;
+	left:15%;
+} 
+h1{
+	font-family:'Nunito-BoldItalic';
+	color:#fff;
+	font-size:4em;
+	font-weight:1em;
+	text-align:center;
+	line-height:30px;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+
+/*--Body--*/
+.main article {
+	margin:0.8% 0.8% 2.5%;
+	width:60%;
+	padding:0.3%;
+	position:relative;
+	top:;
+	bottom:;
+	right:;
+	left:20%;
+}
+.first{ 
+	font-size:2.5em;
+	font-weight: bold, 400px;
+	padding-top:30px;
+}
+h2{
+	font-size:2.5em;
+	font-weight: bold, 400px;
+	padding-top:20px;
+	float:left; 
+}
+.content {
+	padding-top:1em;
+	float:left;
+	font-family:'SourceSansPro-LightItalic';
+	font-size:1.4em;
+	text-align:justify;
+	line-height:normal;
+	margin:1em auto 1em;
+}
+/*
+.ejemplo{
+	width:200px;
+	margin:25%;
+	display:block;
+	position:relative;
+	top:;
+	bottom:;
+	right:;
+	left:10%;  
+	float:left;
+}*/
+.img_ejemplo{
+	width: 60vw;
+}
+
+.tip{
+	margin:0.8%;
+	width:80%;
+	padding:20px;
+	position:relative;
+	top:;
+	bottom:;
+	right:;
+	left:10%;
+	background:#737373;
+	float:left; 
+	box-sizing:border-box; 
+	border-radius:15px; 
+}
+.tip p{
+	color:#fff;
+	font-family: 'SourceSansPro-Bold';
+	text-align:center;
+	word-spacing:5px; 
+	line-height:20px; 
+}
+.bussinesEjm{
+	width: 20em;
+	margin:5em auto ;
+	display: block;
+}
+ul{
+	list-style:none;
+}
+li {
+	padding-top:1em;
+	float:left;
+	font-family:'SourceSansPro-LightItalic';
+	font-size:1.3em;
+	text-align:left;
+	line-height:normal;
+	margin-right:auto;
+	margin-left:5em;  
+	width:80%;
+}
+.screenchot{
+	width: 60vw;
+	margin: auto;
+	display: block;
+	margin: auto;
+}
+/*--footer--*/
+footer{
+	margin:0 10px 0 0;
+	width:100%;
+	height:60px;
+	background-color:#000;
+	background-size:100%;
+	float:left; 
+}
+footer p{
+	color:#fff;
+	font-family:'SourceSansPro-Regular';
+	font-size:1em;
+	text-align:center;
+	padding-top:3%;
+}
