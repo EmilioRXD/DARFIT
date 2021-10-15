@@ -1,0 +1,98 @@
+* {
+	margin:0;
+	padding:0;
+	font-family: 'Source Sans Pro';
+}
+
+/*--Fuentes--*/
+@font-face{
+	font-family:'SourceSansPro-Light';
+	src: url(Fuentes/SourceSansPro-Light.ttf);
+	font-style:normal;
+	font-weight:300;
+}
+@font-face{
+	font-family:'SourceSansPro-Regular';
+	src: url(Fuentes/SourceSansPro-Regular.ttf);
+	font-style: normal;
+ 	font-weight: 400;
+}
+@font-face{
+	font-family: 'SourceSansPro-Bold';
+	src: url(Fuentes/SourceSansPro-Bold.ttf);
+	font-style: normal;
+ 	font-weight: 700;
+}
+@font-face{
+	font-family:'SourceSansPro-LightItalic';
+	src:url(Fuentes/SourceSansPro-LightItalic.ttf);
+	font-style:normal;
+	font-weight:400;
+}
+
+/*--Header--*/
+header nav ul{
+	background-color:#212121;
+	display:block;
+}
+.indice_li{
+	display:none;
+}
+.indice:hover > ul li{
+	display:inline-block;
+}
+.indice_li > a{
+	text-decoration:none;
+}
+.wallpaper{
+	background: url(../Imagenes/Fondos/img_2.jpg);
+	background-repeat: no-repeat;
+	height:100vh;
+	background-position: center;
+	background-size: cover;
+}
+.introduccion_h1{
+	font-family:'SourceSansPro-Light';
+	font-size:2.5em;
+	text-align:center;
+	color: white;
+	position: relative;
+	top: 30vh;
+}
+
+.imgTheHero {
+	display: inline;
+    height: 1.5em;
+    position: relative;
+    top: 4vh;
+}
+#body_1 {
+	font-family:'SourceSansPro-LightItalic';
+	text-align:left;
+	background-color: #BB9C72;
+	float: left;
+	width: 70%;
+	padding: 1em;
+}
+#body_2 {
+	background-color: #DEA14F;
+	height: 20vh;
+	float: right;
+	width: 70%;
+	padding: 1em;
+}
+
+
+/*--footer--*/
+footer{
+	width:100%;
+	background-color:#000;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+footer p{
+	color:#fff;
+	font-family:'SourceSansPro-Regular';
+	font-size:1em;
+	text-align:center;
+}
